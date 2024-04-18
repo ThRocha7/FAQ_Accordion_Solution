@@ -65,27 +65,38 @@ main h1 {
     margin: 15px; 
     color: var(--Roxo-escuro);
     font-weight: 600;
+    transition: 0.2s ease;
 }
 
 .question:hover {
     color: var(--Roxo-destaque);
     cursor: pointer;
-    transition: 0.2s ease;
+    
 }
 
 .button-info {
     width: 1.5rem;
 }
 
-.aswer {
-    font-size: .9rem;
-    font-weight: 400;
-    font
+.answer.show {
+    font: normal 0.9rem "Work Sans", sans-serif;
     color: var(--Roxo);
     margin: 15px;
     text-align: left;
+    display: block;
+}
+
+.answer {
+    display: none;
 }
 
 .separator {
     border-bottom: 1px solid var(--Rosa-claro);
+}
+
+@media screen and (max-width: 600px){
+    main{
+        margin: auto;
+    }
+
 }

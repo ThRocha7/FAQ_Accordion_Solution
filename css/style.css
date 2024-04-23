@@ -72,23 +72,27 @@ main h1 {
 .question:hover {
     color: var(--Roxo-destaque);
     cursor: pointer;
-    
 }
 
-.button-info {
+.icons {
     width: 1.5rem;
 }
 
-.answer.show {
-    font: normal 0.9rem "Work Sans", sans-serif;
-    color: var(--Roxo);
-    margin: 15px;
-    text-align: left;
-    display: block;
+.icons .minus-icon{
+    display: none;
 }
 
-.answer {
-    display: none;
+.answer{
+    max-height: 0;
+    overflow: hidden;
+    transition: max-heigth 0.2s ease;
+}
+
+.answer p {
+    font: normal 0.9rem "Work Sans", sans-serif;
+    color: var(--Roxo);
+    padding: 0px 15px 20px 15px;
+    text-align: left;
 }
 
 .separator {

@@ -85,7 +85,7 @@ main h1 {
 .answer{
     max-height: 0;
     overflow: hidden;
-    transition: max-heigth 0.2s ease;
+    transition: max-height 0.3s ease-in;
 }
 
 .answer p {

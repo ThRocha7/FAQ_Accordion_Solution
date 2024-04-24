@@ -16,10 +16,6 @@ questionBtn.forEach(btn => {
             plusIcon.style.display = 'none'
             minusIcon.style.display = 'block'
         }
-
-
     })
     
 })
-
- 

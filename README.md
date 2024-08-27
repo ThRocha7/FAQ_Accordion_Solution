@@ -24,7 +24,7 @@ A ideia do desafio é bem simples, e um tanto quanto complexo também: seguir o 
 
 ### Screenshot
 
-![](./screenshot.jpg)
+![](./assets/images/Captura%20de%20tela%202024-08-26%20215047.png)
 
 ### Links
 

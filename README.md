@@ -42,7 +42,6 @@ Eu, até então, nunca tinha mexido com animação em CSS e muito menos com a in
 
 Segue o código do vídeo:
 
-```
 ```js
 questionBtn.forEach(btn => {
     btn.addEventListener('click', function (){
